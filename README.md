@@ -97,21 +97,18 @@ Les Options [5], [6], [7] et [8] sont les options principales de ce bot pour fai
     - Pour empêcher la fermeture des threads, le pirate envoie par intermittence des en-têtes de requête partiels ou des requêtes HTTP supplémentaires pour maintenir le serveur Web ciblé en activité et le convaincre d'attendre que la requête HTTP soit terminée.
     - En attendant que d'autres requêtes HTTP et connexions TCP soient lancées, le serveur cible finit par manquer de connexions disponibles et ne plus pouvoir répondre aux requêtes du trafic légitime, ce qui entraîne un déni de service.
 ```
-
-Before Dos Attack
+Avant Dos Attaque
 
 ![img_1.png](image/img_1.png)
 
-Attack Dos SlowLoris
+Attaque Dos SlowLoris
 
 ![img_2.png](image/img_2.png)
-
-After Dos Attack the server Apache is out,
-we can see any metric on dashboard during the attack Dos (red line)
-
+Après Dos Attack, le serveur Apache est sorti,
+nous pouvons voir n'importe quelle métrique sur le tableau de bord pendant l'attaque Dos (ligne rouge)
 ![img_3.png](image/img_3.png)
 
-## DoS protection
+## Protection DoS
 
 ```
 DoS Protect est une solution légère qui utilise des fonctionnalités de télémétrie et de contrôle standard (sFlow et BGP)
@@ -132,7 +129,7 @@ La solution exploite les fonctionnalités standard du matériel de routage moder
 
 ```
 
-## Getting Started
+## Commencer sFlow-RT
 
 ```
 Essayez les analyses en temps réel de sFlow-RT en suivant les étapes de ce guide.```
@@ -140,7 +137,7 @@ Essayez les analyses en temps réel de sFlow-RT en suivant les étapes de ce gui
 # Step 1: Installation sFlow-RT
 
 ```
-Follow the download and installation instructions for your platform.
+Suivez les instructions de téléchargement et d'installation de votre plate-forme
 ```
 
 # Step 2: Installation applications
