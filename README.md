@@ -165,7 +165,7 @@ par exemple http://localhost:8008 si vous exécutez le logiciel sur votre ordina
 ![img.png](img.png)
 La page d'état de sFlow-RT affiche des mesures clés sur la santé et les performances de sFlow-RT.```
 
-# Step 4: Configure / deploy agents
+# Step 4: Configure / deployer agents
 
 ```
 l'agent décrit comment configurer sFlow dans les périphériques réseau existants et/ou déployer des agents pour surveiller les hôtes,
