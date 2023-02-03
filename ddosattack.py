@@ -165,6 +165,7 @@ while number != '0':
         print("\033[H\033[J", end="")
         data = ""
     elif number == 'A':
+        # Installation de la partie relative au suivi des différents serveur
         print("\n [Installation monitoring ...\n")
         # update system package
         os.system("xterm -e \"sudo apt update && sudo apt install wget curl\"")
