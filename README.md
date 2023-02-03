@@ -8,7 +8,7 @@ Only for Kali Linux
 Prérequis pour Attaque ICMP Flood et Slowloris. 
 ```
 -	Wireshark (pour l’analyse du trafic) 
--	Xterm ( Pour affichage des commandes dans une fenêtre externe à la console principale) 
+-	Xterm (Pour affichage des commandes dans une fenêtre externe à la console principale) 
 ```
 1.	Installation du script 
 
@@ -28,6 +28,8 @@ git clone https://github.com/kali973/BotDos.git
 cd botDos
 
 python ddosattack.py
+
+![img99.png](image%2Fimg99.png)
 
 Les Options [5], [6], [7] et [8] sont les options principales de ce bot pour faire du Ping Flood (ICMP Flooding) ou du slowloris . 
 ```
