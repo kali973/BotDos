@@ -1,6 +1,5 @@
-## Apache2 Service for Kali Linux
+## Botdos en python pour Linux
 
-Only for Kali Linux
 ```
   Ce script a été développé pour un projet académique et il ne doit pas être utilisé en dehors de ce cadre. 
 ```
@@ -115,37 +114,39 @@ we can see any metric on dashboard during the attack Dos (red line)
 ## DoS protection
 
 ```
-DoS Protect is an open source denial of service mitigation tool that uses industry standard sFlow telemetry from routers
-to detect attacks and automatically deploy BGP remotely triggered blackhole (RTBH) and BGP Flowspec filters 
-to block attacks within seconds
+DoS Protect est une solution légère qui utilise des fonctionnalités de télémétrie et de contrôle standard (sFlow et BGP)
+des routeurs pour bloquer automatiquement les attaques par déni de service volumétrique perturbatrices.
+
+Vous pouvez évaluer rapidement la technologie sur votre ordinateur portable ou dans un laboratoire de test.
+La solution exploite les fonctionnalités standard du matériel de routage moderne pour s'adapter facilement aux grands réseaux à fort trafic.
 ```
 
 ![img.png](image/dosProtectSflow.png)
 
 ```
-DoS Protect is a lightweight solution that uses standard telemetry and control (sFlow and BGP) capabilities 
-of routers to automatically block disruptive volumetric denial of service attacks.
+DoS Protect est une solution légère qui utilise des fonctionnalités de télémétrie et de contrôle standard (sFlow et BGP)
+des routeurs pour bloquer automatiquement les attaques par déni de service volumétrique perturbatrices.
 
-You can quickly evaluate the technology on your laptop or in a test lab. 
-The solution leverages standard features of modern routing hardware to scale easily to large high traffic networks.
+Vous pouvez évaluer rapidement la technologie sur votre ordinateur portable ou dans un laboratoire de test.
+La solution exploite les fonctionnalités standard du matériel de routage moderne pour s'adapter facilement aux grands réseaux à fort trafic.
+
 ```
 
 ## Getting Started
 
 ```
-Try out sFlow-RT's real-time analytics by following the steps in this guide.
-```
+Essayez les analyses en temps réel de sFlow-RT en suivant les étapes de ce guide.```
 
-# Step 1: Install sFlow-RT
+# Step 1: Installation sFlow-RT
 
 ```
 Follow the download and installation instructions for your platform.
 ```
 
-# Step 2: Install applications
+# Step 2: Installation applications
 
 ```
-Start off by installing the browse-metrics and browse-flows applications:
+Commencez par installer les applications de métriques de navigation et de flux de navigation :
 ```
 
 ```
@@ -162,23 +163,22 @@ sudo systemctl restart sflow-rt
 # Step 3: Access user interface
 
 ```
-The user interface can be accessed using a web browser. Connect to HTTP port 8008 on the host running sFlow-RT, 
-for example http://localhost:8008 if you are running the software on your laptop/desktop.
+L'interface utilisateur est accessible à l'aide d'un navigateur Web. Connectez-vous au port HTTP 8008 sur l'hôte exécutant sFlow-RT,
+par exemple http://localhost:8008 si vous exécutez le logiciel sur votre ordinateur portable/de bureau.
 ![img.png](img.png)
-The sFlow-RT Status page shows key metrics about the health and performance of sFlow-RT.
-```
+La page d'état de sFlow-RT affiche des mesures clés sur la santé et les performances de sFlow-RT.```
 
 # Step 4: Configure / deploy agents
 
 ```
-Agents describes how to configure sFlow in existing network devices and/or deploy agents to monitor hosts, 
-hypervisors, containers, Swarm and Kubernetes clusters. Use the sFlow-RT Status page to verify that sFlow 
-telemetry is being received.
+l'agent décrit comment configurer sFlow dans les périphériques réseau existants et/ou déployer des agents pour surveiller les hôtes,
+hyperviseurs, conteneurs, clusters Swarm et Kubernetes. Utilisez la page d'état de sFlow-RT pour vérifier que sFlow
+la télémétrie est reçue.
 
-If you don't have immediate access to a network, Real-time network and system metrics as a service describes
-how to replay captured sFlow data to explore the capabilities of the software on your laptop. Alternatively, 
-sflow-rt/containerlab includes projects that emulate leaf and spine networks, EVPN, and DDoS mitigation, 
-that can be run on a laptop using Docker Desktop.
+Si vous ne disposez pas d'un accès immédiat à un réseau, les métriques réseau et système en temps réel en tant que service décrivent
+comment relire les données sFlow capturées pour explorer les capacités du logiciel sur votre ordinateur portable. Alternativement,
+sflow-rt/containerlab comprend des projets qui émulent les réseaux leaf et spine, EVPN et l'atténuation DDoS,
+qui peut être exécuté sur un ordinateur portable à l'aide de Docker Desktop.
 ```
 
 # Step 5: Explore data
