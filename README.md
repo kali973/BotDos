@@ -18,7 +18,7 @@ Prérequis pour Attaque ICMP Flood et Slowloris.
 
 2.	Lancement du script 
 
-        Le fichier ddosattack.py est celui qui lance tout le programme. 
+        Le fichier dosattack.py est celui qui lance tout le programme. 
         Voici la commande python qui nous permet de lancer notre script. 
 
 ```
@@ -26,7 +26,7 @@ git clone https://github.com/kali973/BotDos.git
 
 cd botDos
 
-python ddosattack.py
+python dosattack.py
 
 ![img99.png](image%2Fimg99.png)
 
