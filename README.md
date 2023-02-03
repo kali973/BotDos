@@ -144,13 +144,11 @@ Suivez les instructions de téléchargement et d'installation de votre plate-for
 
 ```
 Commencez par installer les applications de métriques de navigation et de flux de navigation :
-
+```
 sudo /usr/local/sflow-rt/get-app.sh sflow-rt browse-metrics
 sudo /usr/local/sflow-rt/get-app.sh sflow-rt browse-flows
 ```
-
 # Restart sFlow-RT to load the applications:
-
 ```
 sudo systemctl restart sflow-rt
 ```
