@@ -99,31 +99,31 @@ Les Options [5], [6], [7] et [8] sont les options principales de ce bot pour fai
     - En attendant que d'autres requêtes HTTP et connexions TCP soient lancées, le serveur cible finit par manquer de connexions disponibles et ne plus pouvoir répondre aux requêtes du trafic légitime, ce qui entraîne un déni de service.
 ```
 
-Before Ddos Attack
+Before Dos Attack
 
 ![img_1.png](image/img_1.png)
 
-Attack Ddos SlowLoris
+Attack Dos SlowLoris
 
 ![img_2.png](image/img_2.png)
 
-After Ddos Attack the server Apache is out,
-we can see any metric on dashboard during the attack Ddos (red line)
+After Dos Attack the server Apache is out,
+we can see any metric on dashboard during the attack Dos (red line)
 
 ![img_3.png](image/img_3.png)
 
-## DDoS protection
+## DoS protection
 
 ```
-DDoS Protect is an open source denial of service mitigation tool that uses industry standard sFlow telemetry from routers
+DoS Protect is an open source denial of service mitigation tool that uses industry standard sFlow telemetry from routers
 to detect attacks and automatically deploy BGP remotely triggered blackhole (RTBH) and BGP Flowspec filters 
 to block attacks within seconds
 ```
 
-![img.png](image/ddosProtectSflow.png)
+![img.png](image/dosProtectSflow.png)
 
 ```
-DDoS Protect is a lightweight solution that uses standard telemetry and control (sFlow and BGP) capabilities 
+DoS Protect is a lightweight solution that uses standard telemetry and control (sFlow and BGP) capabilities 
 of routers to automatically block disruptive volumetric denial of service attacks.
 
 You can quickly evaluate the technology on your laptop or in a test lab. 
